@@ -13,20 +13,23 @@ else {
     alert(`El año ${anioBisiesto} No es bisiesto`);
 }
 
-// creamo un arreglo con 10 notas
-// elavaluamos cada un de ellas y si es mayor a 6 aprobo
+// crear un arreglo con 10 notas
+// elavaluar cada un de ellas y si es mayor e igual a 6 aprobo
 // si es menor a 6 desaprobado
 
 let notasDePractica = [8, 4, 7, 4, 2, 10, 3, 5, 1, 9];
 
 for (let i = 0; i < notasDePractica.length; i++) {
     if (notasDePractica[i] >= 6) {
+        let notasAprobadas = notasDePractica[i];
         console.log(`Estas aprobado, ${notasDePractica[i]}`);
+        alert(`Las siguientes notas estan aprobadas ${notasAprobadas}`)
+
     }
     else {
         console.log(`Estas desaprobado, ${notasDePractica[i]}`);
+       
+
     }
 }
-
-
 
